@@ -4,11 +4,11 @@
   "description": "api Todolist",
   "main": "index.js",
   "scripts": {
-  "start": "ts-node src/index.ts",
-  "dev": "nodemon src/index.ts",
-  "build": "tsc",
-  "serve": "node dist/index.js"
-},
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com-segunda-conta:gabrielmz719/api-todolist.git"
@@ -17,13 +17,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.34.0",
     "@types/express": "^5.0.3",
     "@types/node": "^24.3.0",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3"
   }
 }
