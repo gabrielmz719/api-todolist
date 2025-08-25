@@ -1,0 +1,29 @@
+{
+  "name": "api-todolist",
+  "version": "1.0.0",
+  "description": "api Todolist",
+  "main": "index.js",
+  "scripts": {
+  "start": "ts-node src/index.ts",
+  "dev": "nodemon src/index.ts",
+  "build": "tsc",
+  "serve": "node dist/index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-segunda-conta:gabrielmz719/api-todolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
